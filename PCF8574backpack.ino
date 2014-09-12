@@ -23,7 +23,7 @@ void setup()
 void loop()
 {
   lcd.home (); // set cursor to 0,0
-  lcd.print("tronixlabs.com"); 
+  lcd.print(" tronixlabs.com"); 
   lcd.setCursor (0,1);        // go to start of 2nd line
   lcd.print(millis());
   delay(1000);
